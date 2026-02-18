@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-7&g0mz#6zf-=j*mtt+wa&k)qdhpqyx^&@*w7yg0o6*4sjd!*a*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False 
 
-ALLOWED_HOSTS = ['portfolio-3vib.onrender.com']
+ALLOWED_HOSTS = ['.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com']
+
 
 
 
