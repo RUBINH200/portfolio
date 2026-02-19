@@ -1,7 +1,19 @@
 {% extends 'main/base.html' %}
+{% load static %}
 
 {% block content %}
 
+<!-- Profile Section -->
+<div class="card" style="text-align:center;">
+    <img src="{% static 'main/images/profile.jpg' %}" 
+         alt="Rubin Profile"
+         style="width:180px; height:180px; border-radius:50%; object-fit:cover; margin-bottom:20px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+         
+    <h2>Rubin Hubert Raj</h2>
+    <p>Python Developer | Quality Assurance Engineer</p>
+</div>
+
+<!-- Welcome Section -->
 <div class="card">
     <h2>Welcome</h2>
     <p>
@@ -10,6 +22,7 @@
     </p>
 </div>
 
+<!-- Technical Skills -->
 <div class="card">
     <h2>Technical Skills</h2>
     <ul>
@@ -20,6 +33,7 @@
     </ul>
 </div>
 
+<!-- Experience -->
 <div class="card">
     <h2>Experience</h2>
     <p>
